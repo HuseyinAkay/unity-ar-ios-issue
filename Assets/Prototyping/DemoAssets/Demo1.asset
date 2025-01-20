@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f349df0a9b3f05a699dfcafc8308767f, type: 3}
+  m_Name: Demo1
+  m_EditorClassIdentifier: 
+  library: {fileID: 11400000, guid: 930387fd936e9439da2748f54888e080, type: 2}
+  displayName: Number 1
+  icon: {fileID: 0}
+  autoResize: 0
+  sizeSettingKeyword: SizeAdjusted
+  spawnConfigs:
+  - name: one
+    _referenceImage:
+      m_SerializedGuid:
+        m_GuidLow: 4810528662583123844
+        m_GuidHigh: 14691078122822476691
+      m_SerializedTextureGuid:
+        m_GuidLow: 12757368060468107522
+        m_GuidHigh: 12201306704682109835
+      m_Size: {x: 0, y: 0}
+      m_SpecifySize: 0
+      m_Name: one
+      m_Texture: {fileID: 0}
+    prefab: {fileID: 4746964083673220556, guid: fa3dee423c2e84c529ef26e9dbee7f53,
+      type: 3}
