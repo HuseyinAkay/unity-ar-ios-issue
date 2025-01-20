@@ -4,7 +4,7 @@ Issue: On ios bulid, the ar camera background either freezes or it displays a fu
 Steps to reproduce issue:
 
 - Clone repo and open it with unity 6000.0.32f1.
-- Open build window and on the scene list you will see two scenes. (one that is named "Sample Based Scene" is the one with the described issue, the other one named "BasicImageTracking" is the unity arfoundation samples basic image tracking example imported to this one and it doesn't have the same issue)
+- Open build window and on the scene list you will see two scenes. (one that is named "Sample Based Scene" is the one with the described issue, the other one named "BasicImageTracking" is the [unity arfoundation samples basic image tracking example](https://github.com/Unity-Technologies/arfoundation-samples?tab=readme-ov-file#basic-image-tracking) imported to this one and it doesn't have the same issue)
 - Make a build with just "Sample Based Scene" and on android you will see app working normally (after getting past the start screen pointing camera at the corresponding image that is set on top of your screen you should see the image getting placed on it) and in ios after getting past the starting screen you will see the camera bcakround either fully black or get stuck after a little bit
 - Make a build with just "BasicImageTracking" and you will see on bot ahdroid and ios the unity example working as it should
 
